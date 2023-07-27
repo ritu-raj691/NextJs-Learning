@@ -7,6 +7,21 @@
     margin-left: 12px;
 }
 
+.navbar li a {
+    text-decoration: none;
+}
+
+.navbar .nestedNavbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar .nestedNavbar a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .button {
     margin-left: 8px;
 }

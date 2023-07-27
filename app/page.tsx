@@ -1,5 +1,5 @@
 import Link from "next/link";
-import style from './page.module.css'
+import style from "./page.module.css";
 
 export default function Home() {
   return (
@@ -12,8 +12,10 @@ export default function Home() {
         <li>
           <Link href="/login">Login</Link>
         </li>
-        <li>
+        <li className={style.nestedNavbar}>
           <Link href="/about">About</Link>
+          <Link href="/about/aboutstudent">About Student</Link>
+          <Link href="/about/aboutteacher">About Teacher</Link>
         </li>
       </ul>
     </>
