@@ -4,22 +4,18 @@ import style from "./page.module.css";
 export default function Home() {
   return (
     <>
-      <h2>Main Page</h2>
       <ul className={style.navbar}>
         <li>
-          <Link href="/">Home</Link>
+          <h4>Login Navbar</h4>
         </li>
-        <li className={style.nestedNavbar}>
+        <li>
           <Link href="/login">Login</Link>
-          <Link href="/login/loginstudent">Login Student</Link>
-          <Link href="/login/loginteacher">Login Teacher</Link>
         </li>
-        <li className={style.nestedNavbar}>
+        <li>
           <Link href="/about">About</Link>
-          <Link href="/about/aboutstudent">About Student</Link>
-          <Link href="/about/aboutteacher">About Teacher</Link>
         </li>
       </ul>
+      <h1 className={style.heading}>Main Page</h1>
     </>
   );
 }

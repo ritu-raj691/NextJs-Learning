@@ -1,0 +1,18 @@
+.menubar {
+    display: flex;
+    align-items: baseline;
+}
+
+.menubar li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.menubar li a {
+    text-decoration: none;
+}
+
+.heading {
+    color: burlywood;
+    text-align: center;
+}
