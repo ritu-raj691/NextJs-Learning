@@ -9,8 +9,10 @@ export default function Home() {
         <li>
           <Link href="/">Home</Link>
         </li>
-        <li>
+        <li className={style.nestedNavbar}>
           <Link href="/login">Login</Link>
+          <Link href="/login/loginstudent">Login Student</Link>
+          <Link href="/login/loginteacher">Login Teacher</Link>
         </li>
         <li className={style.nestedNavbar}>
           <Link href="/about">About</Link>
